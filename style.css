@@ -1,0 +1,85 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://cdn.wallpapersafari.com/96/12/5B0fbR.jpg");
+    background-color:white;
+    background-size: cover;
+}
+
+button {
+    background-color: #cdcdcd;
+    font-family: "Optima", Arial;
+}
+
+button:hover {
+    background-color: rgba(200, 200, 200, .5);
+}
+
+table {
+    width: 100%;
+    grid-column: span 3;
+    text-align: center;
+    font-family: "Didot", "Goudy Old Style";
+}
+
+th {
+    padding: 0.5em;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+td {
+    font-family: "Goudy Old Style", serif;
+}
+
+.arena {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 75%;
+    margin: 3em auto;
+    background-color: white;
+    border: solid 1em  #cdcdcd;
+}
+
+.choice {
+    grid-row: span 1;
+    width: 90%;
+    margin: 1em 0.5em;
+    padding: 0.5em;
+    font-size: 24px;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+#reset {
+    grid-column: span 3;
+    width: 15%;
+    justify-self: center;
+    margin: 1em;
+    padding: 0.5em;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#result_display {
+    grid-column: span 3;
+    margin: 0.5em;
+    text-align: center;
+    font-family: "Didot", "Goudy Old Style";
+    font-size: 18px;
+    font-style: italic;
+}
+
+#final_result {
+    grid-column: span 3;
+    margin: 0.5em;
+    text-align: center;
+    font-family: "Optima", Arial;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
